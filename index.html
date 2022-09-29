@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic-Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body>
+    <h1 class="text-justify">Calculadora Básica</h1>
+    <div class="container-sm">
+        <div class="row text-center">
+            <div class="col">
+                <label for="num1">Número1</label>
+                    <input type="number" name="num1" id="num1">
+            </div>
+            <div class="col">
+                <label for="num2">Número2</label>
+                    <input type="number" name="num2" id="num2">
+            </div>
+        </div>
+    
+         <div class="containerP text-center">
+            <p>Resultado:</p>
+             <p id="resultado" >00.00</p>
+        </div>
+
+        <div class="containerO grid text-center">
+            <button id="suma"><img src="./assets/img/suma.png" alt="Operador suma"></button>
+            <button id="resta"><img src="./assets/img/resta.png" alt="Operador resta"></button>
+            <button id="mult"><img src="./assets/img/mult.png" alt="Operador multiplicacion"></button>
+            <button id="div"><img src="./assets/img/div.png" alt="Operador division"></button>
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

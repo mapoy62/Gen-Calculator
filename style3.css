@@ -1,0 +1,35 @@
+.container{
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+}
+#display{
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+    background-color: plum;
+}
+.buttons{
+    display: grid;
+    border-bottom: 1px solid plum;
+    border-left: 1px solid purple;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.button{
+    border: 0.5px solid blue;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+#btn-igual{
+    background-color: plum;
+    color: blueviolet;
+}
+.button:hover{
+    background-color: blueviolet;
+    color: beige;
+    transition: 0.5s ease-in-out;
+}
